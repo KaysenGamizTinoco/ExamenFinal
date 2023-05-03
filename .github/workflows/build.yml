@@ -1,0 +1,9 @@
+on: push
+jobs:
+  build-node:
+    runs-on: ubuntu-latest
+    container: node:16
+    steps:
+      - run: echo Kaysen Jesús Gamiz Tinoco
+      - run: node --version
+      - run: echo 733453
